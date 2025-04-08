@@ -4,7 +4,7 @@
   tutte le posizioni (righe e colonne) in cui appare.
   Verifica la presenza di valori duplicati nella matrice.
 */
-import java.util.Scanner;
+
 
 public class Main {
     public static void main(String[]args) {
