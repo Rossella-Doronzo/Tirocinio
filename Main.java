@@ -7,34 +7,52 @@
 
 
 public class Main {
-    public static void main(String[]args) {
+    public static void main(String[] args) {
 
         //istanziato oggetto matrice e specificato le due dimensioni
         int matrice[][] = {
                 {1, 2, 3, 4},
-                {5, 4, 3},
+                {5, 4, 3, 8},
         };
 
-        int valoreCercare = 3;
-        int valoreDuplicato = valoreCercare;
-        boolean valoreTrovato = false;
+        boolean valoreDuplicato = false;
+
 
         for (int i = 0; i < matrice.length; i++) {
             for (int j = 0; j < matrice[i].length; j++) {
-                if (matrice[i][j] == valoreCercare) {
+                /*if (matrice[i][j] == valoreCercare) {
                     System.out.println ("la riga è: " + i + "la colonna è: " + j);
+                   */
+                for (int k = 0; k < matrice.length; k++) {
+                    for (int l = 0; l < matrice[k].length; l++) {
 
-                    if (valoreDuplicato==valoreCercare) {
-                        valoreTrovato = true;
-                        break;
+                        if (i != k || j != l) {
+                            if (matrice[i][j] == matrice[k][l]) {
+                                if (!valoreDuplicato) {
+                                    valoreDuplicato = true;
+                                }
+                                System.out.println("Il valore duplicato è " + matrice[i][j]);
+                                break;
 
+                            }
+                        }
                     }
-
-
+                    if (valoreDuplicato) {
+                        break;
+                    }
                 }
+                if (valoreDuplicato) {
+                    break;
+                }
+            }
+            if (valoreDuplicato) {
+                break;
+            }
+            if (!valoreDuplicato) {
+                System.out.println(" Non ci sono valori duplicati");
             }
 
         }
-        System.out.println( "Il valore " + valoreCercare + "è stato duplicato");
     }
     }
+
