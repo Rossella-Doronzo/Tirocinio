@@ -5,7 +5,7 @@
   Verifica la presenza di valori duplicati nella matrice.
 */
 
-
+package esercizi.array;
 public class Main {
     public static void main(String[] args) {
 
