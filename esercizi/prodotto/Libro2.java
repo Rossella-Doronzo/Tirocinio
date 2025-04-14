@@ -1,6 +1,6 @@
-package esercizi;
+package esercizi.prodotto;
 
-public class Libro2 extends Prodotto{
+public class Libro2 extends Prodotto {
 
    private double prezzo;
 

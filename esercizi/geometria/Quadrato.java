@@ -1,4 +1,4 @@
-package esercizi;
+package esercizi.geometria;
 
 public class Quadrato extends Forma {
     private int lato;

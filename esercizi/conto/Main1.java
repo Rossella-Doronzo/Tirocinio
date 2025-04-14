@@ -1,4 +1,4 @@
-package esercizi;
+package esercizi.conto;
 
 public class Main1 {
 

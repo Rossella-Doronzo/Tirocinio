@@ -1,6 +1,6 @@
-package esercizi;
+package esercizi.mezzi;
 
-public class Aereo extends MezziTrasporto{
+public class Aereo extends MezziTrasporto {
 
     private int numeroPasseggeri;
     private int numeroPersonaleBordo;

@@ -1,4 +1,4 @@
-package esercizi;
+package esercizi.persona;
 
 public class TestPersona {
     public static void main (String[] args){

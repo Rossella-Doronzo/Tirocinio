@@ -6,7 +6,7 @@ per calcolare il prezzo del libro
 
 */
 
-package esercizi;
+package esercizi.prodotto;
 
 public abstract class Prodotto {
 

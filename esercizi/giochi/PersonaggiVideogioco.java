@@ -6,7 +6,7 @@
  Crea alcune istanze e verifica il funzionamento dei metodi.
  */
 
-package esercizi;
+package esercizi.giochi;
 
 public class PersonaggiVideogioco {
 

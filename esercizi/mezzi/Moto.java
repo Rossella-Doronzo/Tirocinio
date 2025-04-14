@@ -1,4 +1,4 @@
-package esercizi;
+package esercizi.mezzi;
 
 public class Moto extends MezziTrasporto {
 

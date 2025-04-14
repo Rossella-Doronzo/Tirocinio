@@ -8,7 +8,7 @@ Crea alcune istanze e verifica il funzionamento dei metodi.
 
  */
 
-package esercizi;
+package esercizi.mezzi;
 
 public class MezziTrasporto {
 

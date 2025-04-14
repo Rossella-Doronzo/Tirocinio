@@ -1,6 +1,6 @@
-package esercizi;
+package esercizi.geometria;
 
-public class Rettangolo extends Forma{
+public class Rettangolo extends Forma {
     private int base;
     private int altezza;
 

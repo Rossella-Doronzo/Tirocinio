@@ -1,7 +1,7 @@
 //Creare una classe `ContoBancario` con attributi privati `saldo` e `numeroConto`, e
 // fornire metodi per depositare e prelevare denaro.
 
-package esercizi;
+package esercizi.conto;
 
 public class ContoBancario {
 

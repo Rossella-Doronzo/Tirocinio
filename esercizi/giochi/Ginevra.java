@@ -1,6 +1,6 @@
-package esercizi;
+package esercizi.giochi;
 
-public class Ginevra extends PersonaggiVideogioco{
+public class Ginevra extends PersonaggiVideogioco {
 
     public Ginevra (String nome, String ruolo, int livello){
 

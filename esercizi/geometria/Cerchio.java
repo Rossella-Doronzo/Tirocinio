@@ -1,6 +1,6 @@
-package esercizi;
+package esercizi.geometria;
 
-public class Cerchio extends Forma{
+public class Cerchio extends Forma {
 
     private int raggio;
 

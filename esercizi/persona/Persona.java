@@ -1,7 +1,7 @@
 //Creare una classe `Persona` con attributi privati `nome` e `età` e
 // fornire metodi getter e setter per accedervi.
 
-package esercizi;
+package esercizi.persona;
 public class Persona {
     private String nome;
     private int eta;

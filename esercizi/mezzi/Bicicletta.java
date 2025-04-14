@@ -1,6 +1,6 @@
-package esercizi;
+package esercizi.mezzi;
 
-public class Bicicletta extends MezziTrasporto{
+public class Bicicletta extends MezziTrasporto {
 
     private boolean motoreElettrico;
 
