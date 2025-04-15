@@ -11,8 +11,8 @@ public class Main {
 
         //istanziato oggetto matrice e specificato le due dimensioni
         int matrice[][] = {
-                {1, 2, 3, 4},
-                {5, 4, 3, 8},
+                {1, 2, 9, 4},
+                {5, 10, 3, 8},
         };
 
         boolean valoreDuplicato = false;
@@ -26,33 +26,36 @@ public class Main {
                 for (int k = 0; k < matrice.length; k++) {
                     for (int l = 0; l < matrice[k].length; l++) {
 
-                        if (i != k || j != l) {
+
+                        // aggiungo un ulteriore controllo per evitare che venga duplicato il valore corrente
+                        if ( (i != k) || (j != l) ) {
+
                             if (matrice[i][j] == matrice[k][l]) {
+
                                 if (!valoreDuplicato) {
+
                                     valoreDuplicato = true;
+
                                 }
-                                System.out.println("Il valore duplicato è " + matrice[i][j]);
-                                break;
+                                System.out.println("Il valore duplicato è " + matrice[i][j] + " " + i + " " + j);
+
 
                             }
                         }
                     }
-                    if (valoreDuplicato) {
-                        break;
-                    }
                 }
-                if (valoreDuplicato) {
-                    break;
-                }
-            }
-            if (valoreDuplicato) {
-                break;
-            }
-            if (!valoreDuplicato) {
-                System.out.println(" Non ci sono valori duplicati");
+
             }
 
         }
+
+        if (!valoreDuplicato) {
+            System.out.println(" Non ci sono valori duplicati");
+        }
+
     }
-    }
+
+}
+
+
 

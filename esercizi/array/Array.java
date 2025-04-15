@@ -7,7 +7,7 @@ public class Array {
 
     public static void main(String[] args) {
 
-        int array[] = {2, 4, 10, 20};
+        int array[] = {2, 4, 10, 20, 4, 2 , 20};
 
         boolean valoriDuplicati = false;
         int valoreMinimo = array[0];
