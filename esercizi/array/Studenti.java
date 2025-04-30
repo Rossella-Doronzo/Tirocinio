@@ -1,5 +1,5 @@
 /*
-implementare un programma che salvi dei studenti con nome cognome facolta. Si crei un
+implementare un programma che salvi degli studenti con nome cognome facolta. Creare un
 array che vada a memorizzare questi studenti, creare 2 metodi: uno che stampi tutti i
 dati degli studenti, uno che stampi solo il nome di tutti gli studenti.
 non facciamo tutto dentro al main, ma creiamo dei METODI dove andiamo a scrivere la logica.
